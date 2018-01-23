@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<!--this line of code links the html document to the css one.-->
+<link rel="stylesheet" type="text/css" href="stylesheet-1.css">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <!--Title of page-->
+<title>Design 1</title>
+<!--Heading-->
+<h1>Design 1</h1>
+</head>
+<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+
+<body onload="startTime()">
+
+<div id="txt"></div>
+
+<body>
+
+<h2> This is Design one, this has been created to test on different users to find where the optimum position 
+    for a navigation system should be placed on a website for desktop computers and touch screen devices. </h2>
+	
+	<img src="image 2.jpg" width="360" height="300" alt=""/>
+	
+	<p>Manchester United was the highest-earning football club in the world for 2015–16, with an annual revenue of €689 million, 
+	and the world's most valuable football club in 2017, valued at £2.86 billion. As of June 2015, it is the world's most valuable 
+	football brand, estimated to be worth $1.2 billion. After being floated on the London Stock Exchange in 1991, the club was purchased 
+	by Malcolm Glazer in May 2005 in a deal valuing the club at almost £800 million, after which the company was taken private again, 
+	before going public once more in August 2012, when they made an initial public offering on the New York Stock Exchange.</p> <br>
+	
+	<img src="image 5.jpg" width="360" height="300" alt=""/>
+	<br><br>
+	<br>
+	
+	
+	<footer>
+	</footer>
+	<div class="navbar" id="mybottomnav">
+	<a href="Existing navigation systems.html">Original</a>
+	<a href="Design 1.html">Design 1</a>
+	<a href="Design 2.html">Design 2</a>
+	<a href="Design 3.html">Design 3</a>
+	</div>

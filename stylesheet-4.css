@@ -14,6 +14,7 @@
 .dropdown {
     position: relative;
     display: inline-block;
+	float-right;
 }
 
 .dropdown-content {
@@ -36,3 +37,10 @@
 .dropdown a:hover {background-color: #f1f1f1}
 
 .show {display:block;}
+
+h1 {
+color: #8B0000 ;
+font-size: 20pt;
+font-family: Arial;
+text-align: center
+}
